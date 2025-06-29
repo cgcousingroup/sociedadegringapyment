@@ -1,25 +1,25 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = '8146423463:AAGsCnYb1wfksw8VpRLkI1eJ_l9Zp0P545E'
-SUPPORT_USERNAME = '@supvipoficial'
+TOKEN = '7608134150:AAENGiLeMCxSnmwwmNiMXro4BxUWo9fUO_4'
+SUPPORT_USERNAME = '@suppvipoficial'
 
 # Links de pagamento por produto e por moeda
 PAYMENT_LINKS = {
     'dollar': {
-        'product1': 'https://buy.stripe.com/28obLG6AXgnV75K3cc',
-        'product2': 'https://buy.stripe.com/6oE5ni1gD4Fdcq48wA',
-        'product3': 'https://buy.stripe.com/fZe4je3oL3B92PueVa',
+        'product1': 'https://buy.stripe.com/dRm28jcqG6iP1A0dIO4AU00',
+        'product2': 'https://buy.stripe.com/14A4gr3UaePlguU9sy4AU01',
+        'product3': 'https://buy.stripe.com/14A7sD4Ye4aH92sfQW4AU02',
     },
     'euro': {
-        'product1': 'https://buy.stripe.com/4gw2b6e3pb3BfCg3cd',
-        'product2': 'https://buy.stripe.com/9AQ8zuf7t4FdgGkaEJ',
-        'product3': 'https://buy.stripe.com/8wM4je5wT4Fd0HmfZ7',
+        'product1': 'https://buy.stripe.com/aFa4gr2Q6dLh4McawC4AU03',
+        'product2': 'https://buy.stripe.com/4gMeV5fCScHd1A02064AU04',
+        'product3': 'https://buy.stripe.com/8x2dR176m6iPceE7kq4AU05',
     },
     'pound': {
-        'product1': 'https://buy.stripe.com/4gM7sLgUYaTV5h61gK1RC1m',
-        'product2': 'https://buy.stripe.com/cN23fa9N94Fd89O6oB',
-        'product3': 'https://buy.stripe.com/bIY3fae3p5Jheyc00J',
+        'product1': 'https://buy.stripe.com/cNi14f2Q68qX92s7kq4AU06',
+        'product2': 'https://buy.stripe.com/6oUeV562i6iPguU34a4AU07',
+        'product3': 'https://buy.stripe.com/28E3cngGWbD9a6w9sy4AU08',
     }
 }
 
